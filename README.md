@@ -8,19 +8,9 @@
 
 ### Gameplay
 
-- **Controles Intuitivos**: 
-
-- **Cenas Interativas**: 
-
-- **Quebra-Cabeças Criativos**: 
-
-- **Combate Empolgante**: 
+-  
 
 ### História
-
-- **Narrativa Imersiva**: <!-- Mergulhe em uma história envolvente repleta de reviravoltas e personagens cativantes. -->
-
-- **Escolhas do Jogador**:<!--  Suas escolhas afetarão o desenrolar da história e o destino do seu personagem. -->
 
 <!-- 
 ## Parâmetros Modificáveis
@@ -52,18 +42,17 @@ O **Nome do Seu Jogo** permite que os desenvolvedores e jogadores modifiquem uma
 Para garantir uma experiência de jogo suave, verifique se seu dispositivo atende aos seguintes requisitos mínimos:
 
 ### Sistema Operacional: 
-- Linux (.run)
-- Windows (.exe)
-### Processador: (Especifique o processador mínimo)
- - 
- -
+- 
 
-### Memória RAM: (Especifique a quantidade mínima de RAM)
+### Processador:
+ - 
+
+### Memória RAM: 
 -
 
-### Placa de Vídeo: (Especifique a placa de vídeo mínima)
+### Placa de Vídeo: 
 - 
-### Armazenamento: (Especifique o espaço em disco necessário)
+### Armazenamento: 
 -
 ## Contato
 
