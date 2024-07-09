@@ -18,9 +18,19 @@ Desesperados e famintos, os protagonistas são acolhidos por uma misteriosa trib
 
 ### Gameplay
 
--  
+- **Controles Intuitivos**: 
+
+- **Cenas Interativas**: 
+
+- **Quebra-Cabeças Criativos**: 
+
+- **Combate Empolgante**: 
 
 ### História
+
+- **Narrativa Imersiva**: <!-- Mergulhe em uma história envolvente repleta de reviravoltas e personagens cativantes. -->
+
+- **Escolhas do Jogador**:<!--  Suas escolhas afetarão o desenrolar da história e o destino do seu personagem. -->
 
 <!-- 
 ## Parâmetros Modificáveis
@@ -52,17 +62,18 @@ O **Nome do Seu Jogo** permite que os desenvolvedores e jogadores modifiquem uma
 Para garantir uma experiência de jogo suave, verifique se seu dispositivo atende aos seguintes requisitos mínimos:
 
 ### Sistema Operacional: 
-- 
-
-### Processador:
+- Linux (.run)
+- Windows (.exe)
+### Processador: (Especifique o processador mínimo)
  - 
+ -
 
-### Memória RAM: 
+### Memória RAM: (Especifique a quantidade mínima de RAM)
 -
 
-### Placa de Vídeo: 
+### Placa de Vídeo: (Especifique a placa de vídeo mínima)
 - 
-### Armazenamento: 
+### Armazenamento: (Especifique o espaço em disco necessário)
 -
 ## Contato
 
