@@ -11,7 +11,6 @@ config_version=4
 [application]
 
 config/name="Projeto Jogo"
-run/main_scene="res://cenas/Menu.tscn"
 config/icon="res://icon.png"
 
 [gui]
