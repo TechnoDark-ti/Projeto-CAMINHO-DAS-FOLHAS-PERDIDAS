@@ -9,7 +9,7 @@ export_presets.cfg
 *.translation
 
 # All archives imported
-*,import
+*.import
 
 # Mono-specific ignores
 .mono/
