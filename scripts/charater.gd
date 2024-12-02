@@ -1,14 +1,15 @@
 extends CharacterBody2D
-
+#Definindo algumas variáveis de Física
 @export_category("Variables")
 @export var _move_speed: float = 64.0
 @export var _friction: float = 0.2
 @export var _acceleration: float = 0.2
 
+#Função principal
 func _physics_process(_delta: float) -> void:
 	_move()
 	move_and_slide()
-	
+#Função de movimentaçãi	
 func _move():
 	var _direction: Vector2 = Vector2(
 		Input.get_axis("move_left", "move_right"),

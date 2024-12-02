@@ -1,13 +1,13 @@
 [gd_scene load_steps=7 format=3 uid="uid://cvyoslsrv0uof"]
 
 [ext_resource type="Script" path="res://scripts/charater.gd" id="1_2oe02"]
-[ext_resource type="Texture2D" uid="uid://35d336lobgt1" path="res://assets/player/player sprite.png" id="2_scnfc"]
+[ext_resource type="Texture2D" uid="uid://8wdxjenyaova" path="res://assets/player/player sprite.png" id="2_scnfc"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_u4xpc"]
 size = Vector2(13, 2.5)
 
-[sub_resource type="Animation" id="Animation_ttnew"]
-resource_name = "idle_down"
+[sub_resource type="Animation" id="Animation_egdvh"]
+length = 0.001
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -21,8 +21,8 @@ tracks/0/keys = {
 "values": [0]
 }
 
-[sub_resource type="Animation" id="Animation_egdvh"]
-length = 0.001
+[sub_resource type="Animation" id="Animation_ttnew"]
+resource_name = "idle_down"
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
