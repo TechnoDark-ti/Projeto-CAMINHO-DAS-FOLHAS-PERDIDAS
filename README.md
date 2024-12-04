@@ -1,10 +1,20 @@
-# README - Jogo Indie: "Projeto GameDev"
+# README - Jogo Indie: "Caminho das Folhas Perdidas"
 
 ## Descrição do Jogo
+
+é um jogo de aventura e sobrevivência com elementos de RPG, desenvolvido na Godot Engine e apresentado em um formato isométrico pixel art. Os jogadores são imersos em uma emocionante história ambientada em uma densa floresta, onde cinco amigos decidem explorar uma trilha remota em busca de conexão com a natureza. No entanto, ao se desviarem do caminho principal, acabam perdidos na vastidão da vegetação e incapazes de encontrar o caminho de volta.
+Desesperados e famintos, os protagonistas são acolhidos por uma misteriosa tribo indígena que habita a floresta. Agora, eles se veem confrontados com o desafio de assimilar os costumes e a cultura local para garantir sua sobrevivência. Os jogadores devem explorar a floresta, interagir com os membros da tribo, aprender suas tradições e enfrentar os perigos naturais da selva.
+ 
 
 <!-- **Nome do Seu Jogo** é um emocionante jogo indie que combina elementos de ação, aventura e quebra-cabeças para oferecer uma experiência de jogo única. Nele, os jogadores assumem o papel de um personagem principal (insira o nome do personagem) e embarcam em uma jornada épica por mundos misteriosos e desafiadores. -->
 
 ## Principais Características
+- Exploração na Floresta
+ - Interatividade com a Tribo
+ - Estilo de Sobrevivência na Floresta
+ - História Ramificada 
+ - Estilo Pixel Art Isométrico 
+ - Multiplataforma (MacOS, Windows, Linux e Android)
 
 ### Gameplay
 
@@ -43,7 +53,7 @@ O **Nome do Seu Jogo** permite que os desenvolvedores e jogadores modifiquem uma
 
 - Baixe e execute o jogo em seu dispositivo (não é necessário instalar).
 
-- Após abrir o jogo, siga as instruções na tela para começar a aventura.
+- Após abrir o jogo, siga as instruções para começar a aventura.
 
 - Experimente diferentes modos de jogo e personalizações para uma experiência única.
 
@@ -67,11 +77,13 @@ Para garantir uma experiência de jogo suave, verifique se seu dispositivo atend
 -
 ## Contato
 
-- Email de Suporte: [marciomoda@gmail.com]
-- Redes Sociais: ()
+- Email de Suporte: marciomoda@gmail.com
+- Email de Suporte: 
+- Email de Suporte:marciomoda@gmail.com
+- Redes Sociais: 
 
 ## Feedback e Suporte
 
 Apreciamos seu feedback! Se você encontrar bugs, tiver sugestões ou precisar de suporte, entre em contato conosco pelos canais de contato listados acima.
 
-Divirta-se jogando **Projeto Game Dev** e obrigado por apoiar o desenvolvimento de jogos indie!
+Divirta-se jogando **Caminho das Folhas Perdidas** e somos gratos por apoiar o desenvolvimento de jogos indie!
