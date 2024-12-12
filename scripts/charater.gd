@@ -25,4 +25,3 @@ func _move():
 	
 	velocity = _direction.normalized() * _move_speed
 	
-	# O jao é gay
