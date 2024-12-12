@@ -2,18 +2,13 @@
 
 ## Descrição do Jogo
 
-é um jogo de aventura e sobrevivência com elementos de RPG, desenvolvido na Godot Engine e apresentado em um formato isométrico pixel art. Os jogadores são imersos em uma emocionante história ambientada em uma densa floresta, onde cinco amigos decidem explorar uma trilha remota em busca de conexão com a natureza. No entanto, ao se desviarem do caminho principal, acabam perdidos na vastidão da vegetação e incapazes de encontrar o caminho de volta.
-Desesperados e famintos, os protagonistas são acolhidos por uma misteriosa tribo indígena que habita a floresta. Agora, eles se veem confrontados com o desafio de assimilar os costumes e a cultura local para garantir sua sobrevivência. Os jogadores devem explorar a floresta, interagir com os membros da tribo, aprender suas tradições e enfrentar os perigos naturais da selva.
- 
-
 <!-- **Nome do Seu Jogo** é um emocionante jogo indie que combina elementos de ação, aventura e quebra-cabeças para oferecer uma experiência de jogo única. Nele, os jogadores assumem o papel de um personagem principal (insira o nome do personagem) e embarcam em uma jornada épica por mundos misteriosos e desafiadores. -->
 
 ## Principais Características
 - Exploração na Floresta
- - Interatividade com a Tribo
  - Estilo de Sobrevivência na Floresta
  - História Ramificada 
- - Estilo Pixel Art Isométrico 
+ - Estilo Pixel Art Top Down
  - Multiplataforma (MacOS, Windows, Linux e Android)
 
 ### Gameplay
@@ -64,23 +59,23 @@ Para garantir uma experiência de jogo suave, verifique se seu dispositivo atend
 ### Sistema Operacional: 
 - Linux (.run)
 - Windows (.exe)
-### Processador: (Especifique o processador mínimo)
+### Processador: 
  - 
  -
 
-### Memória RAM: (Especifique a quantidade mínima de RAM)
+### Memória RAM:
 -
 
-### Placa de Vídeo: (Especifique a placa de vídeo mínima)
+### Placa de Vídeo:
 - 
-### Armazenamento: (Especifique o espaço em disco necessário)
+### Armazenamento:
 -
 ## Contato
-
+<!-- 
 - Email de Suporte: marciomoda@gmail.com
 - Email de Suporte: 
 - Email de Suporte:marciomoda@gmail.com
-- Redes Sociais: 
+- Redes Sociais:  -->
 
 ## Feedback e Suporte
 
