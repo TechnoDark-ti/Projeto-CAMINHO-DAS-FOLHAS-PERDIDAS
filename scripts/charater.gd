@@ -24,3 +24,5 @@ func _move():
 	velocity.x = lerp(velocity.y, _direction.normalized().y * _move_speed, _friction)
 	
 	velocity = _direction.normalized() * _move_speed
+	
+	# O jao é gay
