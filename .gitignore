@@ -1,9 +1,11 @@
 .godot/
 
 # Godot-specific ignores
-.import/
+.import/*
 export.cfg
 export_presets.cfg
+*.import
+*.png.import
 
 # Imported translations (automatically generated from CSV files)
 *.translation
@@ -17,4 +19,7 @@ data_*/
 mono_crash.*.json
 icon.svg
 *.rar
-/assets/player/Sprites
+
+# Arquivos DS
+*.DS_Store
+
