@@ -8,6 +8,7 @@ export_presets.cfg
 *.import
 *.png.import
 .godot/*
+/.godot/*
 
 # Imported translations (automatically generated from CSV files)
 *.translation
