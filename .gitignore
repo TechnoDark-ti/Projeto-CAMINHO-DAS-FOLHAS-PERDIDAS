@@ -25,6 +25,8 @@ icon.svg
 # Arquivos DS
 *.DS_Store
 
+#inseridos pelo github desktop
 assets/player/player sprite2.png.import
 assets/player/player sprite2.png.import
 /.godot
+.godot/editor/editor_layout.cfg
