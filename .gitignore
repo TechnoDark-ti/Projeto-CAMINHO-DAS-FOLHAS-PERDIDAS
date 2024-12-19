@@ -1,11 +1,9 @@
+.godot/
+
 # Godot-specific ignores
-.import/*
+.import/
 export.cfg
 export_presets.cfg
-*.cfg
-*.import
-*.png.import
-/.godot
 
 # Imported translations (automatically generated from CSV files)
 *.translation
@@ -19,12 +17,5 @@ data_*/
 mono_crash.*.json
 icon.svg
 *.rar
-
-# Arquivos DS
-*.DS_Store
-
-#inseridos pelo github desktop
-assets/player/player sprite2.png.import
-assets/player/player sprite2.png.import
-/.godot
-.godot/editor/editor_layout.cfg
+/assets/player/Sprites
+assets/player/.DS_Store
