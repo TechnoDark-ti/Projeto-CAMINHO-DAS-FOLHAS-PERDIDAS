@@ -1,10 +1,12 @@
-[gd_scene load_steps=7 format=3 uid="uid://cvyoslsrv0uof"]
+[gd_scene load_steps=8 format=3 uid="uid://cvyoslsrv0uof"]
 
 [ext_resource type="Script" path="res://scripts/charater.gd" id="1_2oe02"]
 [ext_resource type="Texture2D" uid="uid://c75yjt0h4jjiw" path="res://assets/player/player_annimation.png" id="2_130y5"]
 
 [sub_resource type="Animation" id="Animation_w7h4n"]
 resource_name = "parado_frente"
+length = 0.6
+loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -12,10 +14,10 @@ tracks/0/path = NodePath("Texture:frame")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.0333333),
-"transitions": PackedFloat32Array(1, 1),
+"times": PackedFloat32Array(0, 0.2, 0.4),
+"transitions": PackedFloat32Array(1, 1, 1),
 "update": 1,
-"values": [0, 1]
+"values": [0, 1, 0]
 }
 
 [sub_resource type="Animation" id="Animation_eqgeh"]
@@ -33,9 +35,13 @@ tracks/0/keys = {
 "values": [0]
 }
 
+[sub_resource type="Animation" id="Animation_abqlj"]
+resource_name = "parado_direita"
+
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_226yv"]
 _data = {
 "RESET": SubResource("Animation_eqgeh"),
+"parado_direita": SubResource("Animation_abqlj"),
 "parado_frente": SubResource("Animation_w7h4n")
 }
 
