@@ -19,3 +19,6 @@ icon.svg
 *.rar
 /assets/player/Sprites
 assets/player/.DS_Store
+.godot/uid_cache.bin
+.godot/editor/filesystem_cache8
+.godot/uid_cache.bin
