@@ -1,7 +1,43 @@
-[gd_scene load_steps=4 format=3 uid="uid://cvyoslsrv0uof"]
+[gd_scene load_steps=7 format=3 uid="uid://cvyoslsrv0uof"]
 
 [ext_resource type="Script" path="res://scripts/charater.gd" id="1_2oe02"]
-[ext_resource type="Texture2D" uid="uid://cg76blxffmt0a" path="res://assets/player/player.png" id="2_rgmoo"]
+[ext_resource type="Texture2D" uid="uid://c75yjt0h4jjiw" path="res://assets/player/player_annimation.png" id="2_130y5"]
+
+[sub_resource type="Animation" id="Animation_w7h4n"]
+resource_name = "parado_frente"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Texture:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.0333333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [0, 1]
+}
+
+[sub_resource type="Animation" id="Animation_eqgeh"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Texture:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_226yv"]
+_data = {
+"RESET": SubResource("Animation_eqgeh"),
+"parado_frente": SubResource("Animation_w7h4n")
+}
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_u4xpc"]
 size = Vector2(10, 1)
@@ -12,15 +48,18 @@ script = ExtResource("1_2oe02")
 
 [node name="Texture" type="Sprite2D" parent="."]
 position = Vector2(0, -17)
-texture = ExtResource("2_rgmoo")
+texture = ExtResource("2_130y5")
 hframes = 6
 vframes = 8
 
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_226yv")
+}
+
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(1, -3.5)
+position = Vector2(0, -3.5)
 shape = SubResource("RectangleShape2D_u4xpc")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(-3, -13)
-
-[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
