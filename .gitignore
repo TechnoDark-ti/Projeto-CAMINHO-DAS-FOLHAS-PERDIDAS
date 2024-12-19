@@ -18,3 +18,4 @@ mono_crash.*.json
 icon.svg
 *.rar
 /assets/player/Sprites
+assets/player/.DS_Store
