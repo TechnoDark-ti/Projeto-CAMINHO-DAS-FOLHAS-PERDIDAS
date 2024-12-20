@@ -1,24 +1,23 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1734448057
-README.md::TextFile::-1::1734440663::0::1::::<><>::
-::res://assets/::1734440663
-::res://assets/cenário/::1734448060
-tileset teste.png::CompressedTexture2D::3564369052085542538::1734440663::1734448060::1::::<><>::
-árvore.png::CompressedTexture2D::8129330260549028453::1734440663::1734448060::1::::<><>::
+::res://::1734727100
+README.md::TextFile::-1::1734612817::0::1::::<><>::
+::res://assets/::1734612848
+::res://assets/cenário/::1734642927
+tileset teste.png::CompressedTexture2D::3564369052085542538::1734612817::1734642927::1::::<><>::
+árvore.png::CompressedTexture2D::8129330260549028453::1734612817::1734642927::1::::<><>::
 ::res://assets/npc/::1734043812
-::res://assets/player/::1734540880
-Parado Atrás.png::CompressedTexture2D::5910314434906255294::1734440672::1734540883::1::::<><>::
-Parado Direita.png::CompressedTexture2D::111484320967493742::1734440672::1734540883::1::::<><>::
-Parado Esquerda.png::CompressedTexture2D::8152519253274192005::1734440672::1734540883::1::::<><>::
-Parado Frente.png::CompressedTexture2D::4540325393070877281::1734440672::1734540883::1::::<><>::
-player.png::CompressedTexture2D::5261919143435680942::1734540880::1734540883::1::::<><>::
-::res://cenas/::1734440663
-charater.tscn::PackedScene::6297234938436137961::1734440663::0::1::::<><>::res://scripts/charater.gd<>uid://b3dtoxdty2572::::res://assets/player/player sprite.png
-main.tscn::PackedScene::2300987202135901657::1734044950::0::1::::<><>::
-Player.tscn::PackedScene::5457451540380444145::1734044950::0::1::::<><>::
+::res://assets/player/::1734727920
+Parado Atrás.png::CompressedTexture2D::7252632486148238693::1734440672::1734642927::1::::<><>::
+Parado Direita.png::CompressedTexture2D::979968235330350878::1734440672::1734642927::1::::<><>::
+Parado Esquerda.png::CompressedTexture2D::3185853282019978226::1734440672::1734642927::1::::<><>::
+Parado Frente.png::CompressedTexture2D::8527852684593496021::1734440672::1734642927::1::::<><>::
+player_annimation.png::CompressedTexture2D::7082290013317500162::1734727931::1734727932::1::::<><>::
+::res://cenas/::1734727649
+charater.tscn::PackedScene::6297234938436137961::1734727649::0::1::::<><>::res://scripts/charater.gd<>uid://c75yjt0h4jjiw::::res://assets/player/player_annimation.png
+main.tscn::PackedScene::2300987202135901657::1734613087::0::1::::<><>::
 ::res://exports/::1733519363
-::res://scripts/::1734440663
-charater.gd::GDScript::-1::1734440663::0::1::::<>CharacterBody2D<>::
+::res://scripts/::1734613083
+charater.gd::GDScript::-1::1734613083::0::1::::<>CharacterBody2D<>::
 Exit.gd::GDScript::-1::1733519234::0::1::::<>Button<>::
 Start.gd::GDScript::-1::1733519234::0::1::::<>Button<>::
-turn.gd::GDScript::-1::1734440663::0::1::::<>Node2D<>::
+turn.gd::GDScript::-1::1734612817::0::1::::<>Node2D<>::
