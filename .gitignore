@@ -1,9 +1,11 @@
-.godot/
+#ignorar a pasta de edição raiz godot
+.godot/*
 
 # Godot-specific ignores
 .import/
 export.cfg
 export_presets.cfg
+*.cfg
 
 # Imported translations (automatically generated from CSV files)
 *.translation
@@ -17,4 +19,14 @@ data_*/
 mono_crash.*.json
 icon.svg
 *.rar
+
+#DS_Store - cache de imagens
 /assets/player/Sprites
+assets/player/.DS_Store
+
+# bin gereadors pela godot
+*.bin
+.godot/.gdignore
+.godot/uid_cache.bin
+.godot/editor/editor_layout.cfg
+.godot/editor/filesystem_cache8

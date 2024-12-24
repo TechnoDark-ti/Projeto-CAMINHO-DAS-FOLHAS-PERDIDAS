@@ -1,35 +1,23 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1723322141
-README.md::TextFile::-1::1723322124::0::1::::<><>::
-::res://assets/::1723322124
-::res://assets/cenas/::1720567474
-::res://assets/cenário/::1723322348
-tileset teste.png::CompressedTexture2D::3564369052085542538::1723319141::1723322357::1::::<><>::
-árvore.png::CompressedTexture2D::8129330260549028453::1723319057::1723322357::1::::<><>::
-::res://assets/player/::1723322257
-player sprite2.png::CompressedTexture2D::3780538450501926894::1723322124::1723322143::1::::<><>::
-player sprite.png::CompressedTexture2D::3664616510752976882::1720658851::1723322143::1::::<><>::
-::res://assets/player/Sprites/::1723319172
-::res://assets/player/Sprites/Arquivos sprites/::1723319252
-::res://assets/player/Sprites/Cenário/::1723322326
-tileset teste.png::CompressedTexture2D::5355775958461206318::1723319141::1723322326::1::::<><>::
-árvore.png::CompressedTexture2D::8697547762873171749::1723319057::1723322326::1::::<><>::
-::res://assets/player/Sprites/Personagem (borda colorida)/::1723322326
-personagem costa.png::CompressedTexture2D::8372943187321434324::1723318722::1723322326::1::::<><>::
-personagem direita.png::CompressedTexture2D::1147726288739088876::1723318762::1723322326::1::::<><>::
-personagem esquerda.png::CompressedTexture2D::5613787475609268545::1723318713::1723322326::1::::<><>::
-personagem frente.png::CompressedTexture2D::8354217806991382260::1723318608::1723322326::1::::<><>::
-::res://assets/player/Sprites/Personagem (borda preta)/::1723322326
-personagem costa.png::CompressedTexture2D::8929045344888295420::1723318893::1723322326::1::::<><>::
-personagem direita.png::CompressedTexture2D::2832776827461894852::1723318957::1723322326::1::::<><>::
-personagem esquerda.png::CompressedTexture2D::7367863002184022692::1723318918::1723322326::1::::<><>::
-personagem frente.png::CompressedTexture2D::2136256766991266150::1723318863::1723322326::1::::<><>::
-::res://cenas/::1723322124
-charater.tscn::PackedScene::6297234938436137961::1723322124::0::1::::<><>::res://scripts/charater.gd<>uid://8wdxjenyaova::::res://assets/player/player sprite.png
-main.tscn::PackedScene::2300987202135901657::1723322124::0::1::::<><>::
-Player.tscn::PackedScene::5457451540380444145::1723322124::0::1::::<><>::
-::res://exports/::1723322125
-::res://scripts/::1723322125
-charater.gd::GDScript::-1::1723322125::0::1::::<>CharacterBody2D<>::
-Exit.gd::GDScript::-1::1723322125::0::1::::<>Button<>::
-Start.gd::GDScript::-1::1723322125::0::1::::<>Button<>::
+::res://::1734727100
+README.md::TextFile::-1::1734612817::0::1::::<><>::
+::res://assets/::1734612848
+::res://assets/cenário/::1734642927
+tileset teste.png::CompressedTexture2D::3564369052085542538::1734612817::1734642927::1::::<><>::
+árvore.png::CompressedTexture2D::8129330260549028453::1734612817::1734642927::1::::<><>::
+::res://assets/npc/::1734043812
+::res://assets/player/::1734727920
+Parado Atrás.png::CompressedTexture2D::7252632486148238693::1734440672::1734642927::1::::<><>::
+Parado Direita.png::CompressedTexture2D::979968235330350878::1734440672::1734642927::1::::<><>::
+Parado Esquerda.png::CompressedTexture2D::3185853282019978226::1734440672::1734642927::1::::<><>::
+Parado Frente.png::CompressedTexture2D::8527852684593496021::1734440672::1734642927::1::::<><>::
+player_annimation.png::CompressedTexture2D::7082290013317500162::1734727931::1734727932::1::::<><>::
+::res://cenas/::1734727649
+charater.tscn::PackedScene::6297234938436137961::1734727649::0::1::::<><>::res://scripts/charater.gd<>uid://c75yjt0h4jjiw::::res://assets/player/player_annimation.png
+main.tscn::PackedScene::2300987202135901657::1734613087::0::1::::<><>::
+::res://exports/::1733519363
+::res://scripts/::1734613083
+charater.gd::GDScript::-1::1734613083::0::1::::<>CharacterBody2D<>::
+Exit.gd::GDScript::-1::1733519234::0::1::::<>Button<>::
+Start.gd::GDScript::-1::1733519234::0::1::::<>Button<>::
+turn.gd::GDScript::-1::1734612817::0::1::::<>Node2D<>::
