@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://damo66386kbnv"]
+
+[node name="Tilemap" type="Node2D"]
+
+[node name="chao_concreto" type="TileMapLayer" parent="."]
