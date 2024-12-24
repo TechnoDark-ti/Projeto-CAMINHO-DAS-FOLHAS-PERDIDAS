@@ -1,7 +1,7 @@
 [gd_scene load_steps=9 format=3 uid="uid://cvyoslsrv0uof"]
 
 [ext_resource type="Script" path="res://scripts/charater.gd" id="1_2oe02"]
-[ext_resource type="Texture2D" uid="uid://c75yjt0h4jjiw" path="res://assets/player/player_annimation.png" id="2_130y5"]
+[ext_resource type="Texture2D" uid="uid://d2ak4gi26j2ub" path="res://assets/player/player_annimation.png" id="2_130y5"]
 
 [sub_resource type="Animation" id="Animation_pabvm"]
 resource_name = "parado_costas"
