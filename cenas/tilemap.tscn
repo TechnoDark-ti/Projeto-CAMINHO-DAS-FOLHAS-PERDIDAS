@@ -1,5 +1,54 @@
-[gd_scene format=3 uid="uid://damo66386kbnv"]
+[gd_scene load_steps=7 format=3 uid="uid://damo66386kbnv"]
 
-[node name="Tilemap" type="Node2D"]
+[ext_resource type="Texture2D" uid="uid://c3t7jb3rorqg2" path="res://assets/cenário/maps/chao_tijolo_cinza.png" id="1_ed3a5"]
+[ext_resource type="Texture2D" uid="uid://be412q3wrbwfd" path="res://assets/cenário/maps/chao_cimento_cinza.png" id="2_apoif"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_w82fb"]
+texture = ExtResource("1_ed3a5")
+texture_region_size = Vector2i(64, 64)
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+8:5/0 = 0
+9:5/0 = 0
+10:5/0 = 0
+11:5/0 = 0
+12:5/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_51phs"]
+tile_size = Vector2i(64, 64)
+sources/1 = SubResource("TileSetAtlasSource_w82fb")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_s7o18"]
+texture = ExtResource("2_apoif")
+11:19/0 = 0
+12:19/0 = 0
+13:19/0 = 0
+14:19/0 = 0
+15:19/0 = 0
+11:18/0 = 0
+12:18/0 = 0
+13:18/0 = 0
+14:18/0 = 0
+15:18/0 = 0
+11:17/0 = 0
+12:17/0 = 0
+13:17/0 = 0
+14:17/0 = 0
+15:17/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_yc13f"]
+sources/1 = SubResource("TileSetAtlasSource_s7o18")
+
+[node name="TerrainManager" type="Node2D"]
 
 [node name="chao_concreto" type="TileMapLayer" parent="."]
+tile_set = SubResource("TileSet_51phs")
+
+[node name="chao_cimento" type="TileMapLayer" parent="."]
+tile_set = SubResource("TileSet_yc13f")
