@@ -1,5 +1,6 @@
 #ignorar a pasta de edição raiz godot
 .godot/*
+.godot/
 
 # Godot-specific ignores
 .import/
