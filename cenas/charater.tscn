@@ -80,7 +80,7 @@ _data = {
 }
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_u4xpc"]
-size = Vector2(10, 1)
+size = Vector2(8, 1)
 
 [node name="Charater" type="CharacterBody2D"]
 position = Vector2(23, 41)
@@ -103,4 +103,4 @@ position = Vector2(0, -3.5)
 shape = SubResource("RectangleShape2D_u4xpc")
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(-3, -13)
+position = Vector2(0, -12)
