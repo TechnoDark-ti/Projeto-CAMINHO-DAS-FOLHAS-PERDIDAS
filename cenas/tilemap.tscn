@@ -1,49 +1,46 @@
 [gd_scene load_steps=7 format=3 uid="uid://damo66386kbnv"]
 
-[ext_resource type="Texture2D" uid="uid://c3t7jb3rorqg2" path="res://assets/cenário/maps/chao_tijolo_cinza.png" id="1_ed3a5"]
-[ext_resource type="Texture2D" uid="uid://be412q3wrbwfd" path="res://assets/cenário/maps/chao_cimento_cinza.png" id="2_apoif"]
+[ext_resource type="Texture2D" uid="uid://b6raurnw1n57o" path="res://assets/cenário/chao_cimento.png" id="1_ao23d"]
+[ext_resource type="Texture2D" uid="uid://bk1hivj1tkuwx" path="res://assets/cenário/tijolos_cinza.png" id="2_dg4h8"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_w82fb"]
-texture = ExtResource("1_ed3a5")
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3jxvn"]
+texture = ExtResource("1_ao23d")
 texture_region_size = Vector2i(64, 64)
-0:5/0 = 0
-1:5/0 = 0
-2:5/0 = 0
-3:5/0 = 0
-4:5/0 = 0
-5:5/0 = 0
-6:5/0 = 0
-7:5/0 = 0
-8:5/0 = 0
-9:5/0 = 0
-10:5/0 = 0
-11:5/0 = 0
-12:5/0 = 0
+0:0/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_51phs"]
 tile_size = Vector2i(64, 64)
-sources/1 = SubResource("TileSetAtlasSource_w82fb")
+sources/0 = SubResource("TileSetAtlasSource_3jxvn")
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_s7o18"]
-texture = ExtResource("2_apoif")
-11:19/0 = 0
-12:19/0 = 0
-13:19/0 = 0
-14:19/0 = 0
-15:19/0 = 0
-11:18/0 = 0
-12:18/0 = 0
-13:18/0 = 0
-14:18/0 = 0
-15:18/0 = 0
-11:17/0 = 0
-12:17/0 = 0
-13:17/0 = 0
-14:17/0 = 0
-15:17/0 = 0
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tna3g"]
+texture = ExtResource("2_dg4h8")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_yc13f"]
-sources/1 = SubResource("TileSetAtlasSource_s7o18")
+sources/0 = SubResource("TileSetAtlasSource_tna3g")
 
 [node name="TerrainManager" type="Node2D"]
 
