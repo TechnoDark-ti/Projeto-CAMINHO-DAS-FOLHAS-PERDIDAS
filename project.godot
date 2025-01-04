@@ -11,14 +11,16 @@ config_version=5
 [application]
 
 config/name="CAMINHO DAS FOLHAS PERDIDAS"
-run/main_scene="res://cenas/charater.tscn"
+run/main_scene="res://cenas/player/charater.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [display]
 
-window/size/viewport_width=1920
-window/size/viewport_height=1080
+window/size/viewport_width=380
+window/size/viewport_height=120
+window/size/window_width_override=1080
+window/size/window_height_override=720
 window/stretch/mode="canvas_items"
 
 [input]
