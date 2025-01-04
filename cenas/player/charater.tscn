@@ -1,7 +1,7 @@
 [gd_scene load_steps=13 format=3 uid="uid://cvyoslsrv0uof"]
 
-[ext_resource type="Script" path="res://scripts/charater.gd" id="1_2oe02"]
-[ext_resource type="Texture2D" uid="uid://dpwlcesi6iw7t" path="res://assets/player/personagem masculino.png" id="2_px22q"]
+[ext_resource type="Script" path="res://scripts/charater.gd" id="1_sb1aj"]
+[ext_resource type="Texture2D" uid="uid://dpwlcesi6iw7t" path="res://assets/player/personagem masculino.png" id="2_rpr0h"]
 
 [sub_resource type="Animation" id="Animation_u1vie"]
 resource_name = "correr_costa"
@@ -156,11 +156,11 @@ size = Vector2(8, 1)
 
 [node name="Charater" type="CharacterBody2D"]
 position = Vector2(23, 41)
-script = ExtResource("1_2oe02")
+script = ExtResource("1_sb1aj")
 
 [node name="Texture" type="Sprite2D" parent="."]
 position = Vector2(0, -17)
-texture = ExtResource("2_px22q")
+texture = ExtResource("2_rpr0h")
 hframes = 8
 vframes = 5
 frame = 18
