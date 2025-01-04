@@ -1,9 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://cntbaoeh55dp3"]
+[gd_scene load_steps=3 format=3 uid="uid://cntbaoeh55dp3"]
 
-[ext_resource type="FontFile" uid="uid://c07tqyncxhe2e" path="res://assets/fonts/Kurland.ttf" id="1_4onsk"]
+[ext_resource type="Script" path="res://scripts/menu_principal.gd" id="1_qf3d8"]
+[ext_resource type="FontFile" uid="uid://c07tqyncxhe2e" path="res://assets/fonts/Kurland.ttf" id="2_qesau"]
 
 [node name="Menu_Principal" type="Control"]
-custom_minimum_size = Vector2(1920, 1080)
+custom_minimum_size = Vector2(1080, 720)
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -12,6 +13,7 @@ offset_right = 94.0
 offset_bottom = 63.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_qf3d8")
 
 [node name="Background" type="ColorRect" parent="."]
 layout_mode = 1
@@ -37,7 +39,7 @@ grow_vertical = 0
 
 [node name="PlaceHolder" type="Label" parent="MadeBy"]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("1_4onsk")
+theme_override_fonts/font = ExtResource("2_qesau")
 theme_override_font_sizes/font_size = 58
 text = "GitHub"
 
@@ -45,7 +47,7 @@ text = "GitHub"
 modulate = Color(0.00392157, 0.980392, 0.00392157, 1)
 layout_mode = 2
 focus_mode = 0
-theme_override_fonts/font = ExtResource("1_4onsk")
+theme_override_fonts/font = ExtResource("2_qesau")
 theme_override_font_sizes/font_size = 58
 text = "TechnoDark"
 flat = true
@@ -70,7 +72,7 @@ alignment = 1
 [node name="GameName" type="Label" parent="MainContainer"]
 layout_mode = 2
 size_flags_horizontal = 4
-theme_override_fonts/font = ExtResource("1_4onsk")
+theme_override_fonts/font = ExtResource("2_qesau")
 theme_override_font_sizes/font_size = 78
 text = "Caminho das Folhas Perdidas"
 horizontal_alignment = 1
@@ -91,19 +93,19 @@ alignment = 1
 
 [node name="Play" type="Button" parent="MainContainer/HContainer/VContainer" groups=["button"]]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("1_4onsk")
+theme_override_fonts/font = ExtResource("2_qesau")
 theme_override_font_sizes/font_size = 68
 text = "Jogar"
 
 [node name="Configure" type="Button" parent="MainContainer/HContainer/VContainer" groups=["button"]]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("1_4onsk")
+theme_override_fonts/font = ExtResource("2_qesau")
 theme_override_font_sizes/font_size = 68
 text = "Configurar
 "
 
 [node name="Exit" type="Button" parent="MainContainer/HContainer/VContainer" groups=["button"]]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("1_4onsk")
+theme_override_fonts/font = ExtResource("2_qesau")
 theme_override_font_sizes/font_size = 68
 text = "Exit"
