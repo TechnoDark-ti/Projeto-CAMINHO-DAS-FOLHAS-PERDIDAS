@@ -31,3 +31,4 @@ assets/player/.DS_Store
 .godot/uid_cache.bin
 .godot/editor/editor_layout.cfg
 .godot/editor/filesystem_cache8
+.DS_Store

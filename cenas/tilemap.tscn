@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://damo66386kbnv"]
 
-[ext_resource type="Texture2D" uid="uid://b6raurnw1n57o" path="res://assets/cenário/chao_cimento.png" id="1_ao23d"]
-[ext_resource type="Texture2D" uid="uid://bk1hivj1tkuwx" path="res://assets/cenário/tijolos_cinza.png" id="2_dg4h8"]
+[ext_resource type="Texture2D" uid="uid://cfkr3bcmnvn1" path="res://assets/cenário/maps/chao_cimento.png" id="1_ao23d"]
+[ext_resource type="Texture2D" uid="uid://j51b8kngl2bc" path="res://assets/cenário/maps/tijolos_cinza.png" id="2_dg4h8"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3jxvn"]
 texture = ExtResource("1_ao23d")
@@ -42,10 +42,10 @@ texture = ExtResource("2_dg4h8")
 [sub_resource type="TileSet" id="TileSet_yc13f"]
 sources/0 = SubResource("TileSetAtlasSource_tna3g")
 
-[node name="TerrainManager" type="Node2D"]
-
-[node name="chao_concreto" type="TileMapLayer" parent="."]
-tile_set = SubResource("TileSet_51phs")
+[node name="cenario_manager" type="Node2D"]
 
 [node name="chao_cimento" type="TileMapLayer" parent="."]
+tile_set = SubResource("TileSet_51phs")
+
+[node name="chao_tijolo" type="TileMapLayer" parent="."]
 tile_set = SubResource("TileSet_yc13f")
