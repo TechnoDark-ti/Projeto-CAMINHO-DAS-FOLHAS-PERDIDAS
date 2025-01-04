@@ -18,10 +18,10 @@ var scene_path_to_load
 
 func _ready():
 	# Define o foco inicial no botão "Play"
-	$Menu_Principal/MainContainer/HContainer/VContainer/Play.grab_focus()
+	$MainContainer/HContainer/VContainer/Play.grab_focus()
 	
 	# Conecta os botões a ações específicas
-	for button in $Menu_Principal/MainContainer/HContainer/VContainer.get_children():
+	for button in $MainContainer/HContainer.get_children():
 		# Conecta cada botão com sua respectiva ação
 		match button.name:
 			"Play":
