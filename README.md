@@ -2,7 +2,7 @@
 
 ## Descrição do Jogo
 
-<!-- **Nome do Seu Jogo** é um emocionante jogo indie que combina elementos de ação, aventura e quebra-cabeças para oferecer uma experiência de jogo única. Nele, os jogadores assumem o papel de um personagem principal (insira o nome do personagem) e embarcam em uma jornada épica por mundos misteriosos e desafiadores. -->
+<!-- CAMINHO DAS FOLHAS PERDIDAS é um emocionante jogo indie que combina elementos de ação, aventura e quebra-cabeças para oferecer uma experiência de jogo única. Nele, os jogadores assumem o papel de um personagem principal (insira o nome do personagem) e embarcam em uma jornada épica por mundos misteriosos e desafiadores. -->
 
 ## Principais Características
 - Exploração na Floresta
