@@ -21,12 +21,12 @@ func _ready():
 	$MainContainer/HContainer/VContainer/Play.grab_focus()
 	
 	# Conecta os botões a ações específicas
-	for button in $MainContainer/VContainer/HContainer.get_children():
+	for button in $MainContainer/HContainer.get_children():
 		# Conecta cada botão com sua respectiva ação
 		match button.name:
 			"Play":
 				button.connect("pressed", Callable(self, "_on_Play_pressed"))
-			"Configurações":
+			"Configure":
 				button.connect("pressed", Callable(self, "_on_Config_pressed"))
 			"Exit":
 				button.connect("pressed", Callable(self, "_on_Exit_pressed"))
