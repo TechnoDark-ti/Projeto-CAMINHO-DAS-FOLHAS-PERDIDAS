@@ -21,7 +21,7 @@ func _ready():
 	$MainContainer/HContainer/VContainer/Play.grab_focus()
 	
 	# Conecta os botões a ações específicas
-	for button in $MainContainer/HContainer.get_children():
+	for button in $MainContainer/VContainer/HContainer.get_children():
 		# Conecta cada botão com sua respectiva ação
 		match button.name:
 			"Play":
