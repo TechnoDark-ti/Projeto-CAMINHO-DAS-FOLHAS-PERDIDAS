@@ -9,10 +9,12 @@ layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_right = 94.0
-offset_bottom = 63.0
+offset_top = 1.52588e-05
+offset_right = 696.0
+offset_bottom = 528.0
 grow_horizontal = 2
 grow_vertical = 2
+scale = Vector2(0.355507, 0.266463)
 script = ExtResource("1_qf3d8")
 
 [node name="Background" type="ColorRect" parent="."]
