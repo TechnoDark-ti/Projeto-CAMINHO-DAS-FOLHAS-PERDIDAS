@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bu5gpo5btqnw8"]
+
+[ext_resource type="Script" path="res://scripts/tela_carregamento.gd" id="1_ya5j5"]
+
+[node name="TelaCarregamento" type="Node"]
+script = ExtResource("1_ya5j5")
