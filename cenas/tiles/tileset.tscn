@@ -1,0 +1,50 @@
+[gd_scene load_steps=7 format=3 uid="uid://dytc81mbt1gok"]
+
+[ext_resource type="Texture2D" uid="uid://b1el0edoyrhp8" path="res://assets/cenário/maps/quartel (sem chão).png" id="1_e86fl"]
+[ext_resource type="Texture2D" uid="uid://codu7v4ywdp2u" path="res://assets/cenário/maps/Muro.png" id="1_hb6q8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mhcg7"]
+size = Vector2(382, 35)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ak0bd"]
+size = Vector2(382, 35)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rxyn7"]
+size = Vector2(388, 22)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qmle1"]
+size = Vector2(388, 20)
+
+[node name="Tileset" type="Node2D"]
+
+[node name="Muro" type="Sprite2D" parent="."]
+position = Vector2(376, 54)
+texture = ExtResource("1_hb6q8")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Muro"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Muro/StaticBody2D"]
+position = Vector2(-229, 194.5)
+shape = SubResource("RectangleShape2D_mhcg7")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="Muro"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Muro/StaticBody2D2"]
+position = Vector2(229, 194.5)
+shape = SubResource("RectangleShape2D_ak0bd")
+
+[node name="Quartel(semChão)" type="Sprite2D" parent="."]
+position = Vector2(372, -99)
+texture = ExtResource("1_e86fl")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Quartel(semChão)"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Quartel(semChão)/StaticBody2D"]
+position = Vector2(-211, 128)
+shape = SubResource("RectangleShape2D_rxyn7")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="Quartel(semChão)"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Quartel(semChão)/StaticBody2D2"]
+position = Vector2(211, 129)
+shape = SubResource("RectangleShape2D_qmle1")
