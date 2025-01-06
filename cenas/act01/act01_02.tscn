@@ -1,8 +1,8 @@
 [gd_scene load_steps=9 format=4 uid="uid://bxyoa41vs1hjc"]
 
-[ext_resource type="Texture2D" uid="uid://cqmkoy285xro0" path="res://assets/cenário/maps/tijolos_cinza.png" id="1_vhjjx"]
+[ext_resource type="Texture2D" uid="uid://j51b8kngl2bc" path="res://assets/cenário/maps/tijolos_cinza.png" id="1_vhjjx"]
 [ext_resource type="PackedScene" uid="uid://dytc81mbt1gok" path="res://cenas/tiles/tileset.tscn" id="1_y8alr"]
-[ext_resource type="Texture2D" uid="uid://fcmee443fnq1" path="res://assets/cenário/maps/chao_cimento.png" id="2_rhbgr"]
+[ext_resource type="Texture2D" uid="uid://cfkr3bcmnvn1" path="res://assets/cenário/maps/chao_cimento.png" id="2_rhbgr"]
 [ext_resource type="PackedScene" uid="uid://cvyoslsrv0uof" path="res://cenas/player/charater.tscn" id="4_pu2ij"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yqu11"]
