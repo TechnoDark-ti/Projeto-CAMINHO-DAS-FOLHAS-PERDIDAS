@@ -8,7 +8,7 @@ Este código implementa a lógica de um menu principal que permite ao jogador se
 - Define qual cena será carregada com base no botão clicado.
 - Exibe uma animação de fade-in antes de mudar para a cena selecionada.
 
-##### FIM DOS CaOMENTÁRIOS #####
+##### FIM DOS COMENTÁRIOS #####
 """
 
 extends Control
