@@ -7,14 +7,17 @@
 ## Principais Características
 - Exploração na Floresta
  - Estilo de Sobrevivência na Floresta
- - História Ramificada 
  - Estilo Pixel Art Top Down
  - Multiplataforma (MacOS, Windows, Linux e Android)
 
 ### Gameplay
 
 - **Controles Intuitivos**: 
-
++ W = Cima
++ S = Baixo
++ A = Esquerda
++ D = Direita
+---
 - **Cenas Interativas**: 
 
 - **Quebra-Cabeças Criativos**: 

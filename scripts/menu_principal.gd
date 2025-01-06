@@ -8,7 +8,7 @@ Este código implementa a lógica de um menu principal que permite ao jogador se
 - Define qual cena será carregada com base no botão clicado.
 - Exibe uma animação de fade-in antes de mudar para a cena selecionada.
 
-##### FIM DOS CaOMENTÁRIOS #####
+##### FIM DOS COMENTÁRIOS #####
 """
 
 extends Control
@@ -26,7 +26,7 @@ func _ready():
 		match button.name:
 			"Play":
 				button.connect("pressed", Callable(self, "_on_Play_pressed"))
-			"Configurações":
+			"Configure":
 				button.connect("pressed", Callable(self, "_on_Config_pressed"))
 			"Exit":
 				button.connect("pressed", Callable(self, "_on_Exit_pressed"))

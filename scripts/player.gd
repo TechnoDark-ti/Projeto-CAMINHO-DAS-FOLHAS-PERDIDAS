@@ -1,5 +1,16 @@
 extends CharacterBody2D
 
+"""
+##### SESSÃO DE COMENTÁRIOS #####
+@Author: Márcio Moda, Grazi Leão, João Manoel e Edy Carlos
+
+
+
+
+
+"""
+
+
 #Definindo algumas variáveis de Física
 @export_category("Variables")
 @export var _move_speed: float = 64.0
