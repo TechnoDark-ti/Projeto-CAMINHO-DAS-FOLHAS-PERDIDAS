@@ -33,7 +33,7 @@ func _ready():
 
 # Função chamada ao pressionar o botão "Play"
 func _on_Play_pressed():
-	scene_path_to_load = "res://cenas/act01/act01_01.tscn" # Caminho da cena de jogo
+	scene_path_to_load = "res://cenas/act01/act01_02.tscn" # Caminho da cena de jogo
 	_start_fade_in()
 
 # Função chamada ao pressionar o botão "Configurações"
