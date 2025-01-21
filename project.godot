@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="CAMINHO DAS FOLHAS PERDIDAS"
+config/name="CAÇADA PELA VERDADE"
 run/main_scene="res://cenas/act01/act01_02.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
 config/icon="res://icon.svg"
