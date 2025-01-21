@@ -111,3 +111,11 @@ layout_mode = 2
 theme_override_fonts/font = ExtResource("2_qesau")
 theme_override_font_sizes/font_size = 43
 text = "Sair"
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 2.81288
+offset_top = 694.28
+offset_right = 193.813
+offset_bottom = 717.28
+text = "version alpha_build 1.1.4"
