@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://cntbaoeh55dp3"]
 
 [ext_resource type="Script" path="res://scripts/menu_principal.gd" id="1_qf3d8"]
-[ext_resource type="FontFile" uid="uid://64iw0uqtfgpm" path="res://assets/fonts/Kurland.ttf" id="2_qesau"]
+[ext_resource type="FontFile" uid="uid://c07tqyncxhe2e" path="res://assets/fonts/Kurland.ttf" id="2_qesau"]
 
 [node name="Menu_Principal" type="Control"]
 custom_minimum_size = Vector2(1080, 720)
@@ -42,7 +42,7 @@ grow_vertical = 0
 [node name="PlaceHolder" type="Label" parent="MadeBy"]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_qesau")
-theme_override_font_sizes/font_size = 58
+theme_override_font_sizes/font_size = 38
 text = "Disponível em"
 
 [node name="TechnoDark-ti" type="Button" parent="MadeBy"]
@@ -50,7 +50,7 @@ modulate = Color(0.00392157, 0.980392, 0.00392157, 1)
 layout_mode = 2
 focus_mode = 0
 theme_override_fonts/font = ExtResource("2_qesau")
-theme_override_font_sizes/font_size = 58
+theme_override_font_sizes/font_size = 38
 text = "GitHub"
 flat = true
 
@@ -75,7 +75,7 @@ alignment = 1
 layout_mode = 2
 size_flags_horizontal = 4
 theme_override_fonts/font = ExtResource("2_qesau")
-theme_override_font_sizes/font_size = 78
+theme_override_font_sizes/font_size = 68
 text = "A Caçada pela Verdade"
 horizontal_alignment = 1
 
@@ -96,18 +96,18 @@ alignment = 1
 [node name="Play" type="Button" parent="MainContainer/HContainer/VContainer" groups=["button"]]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_qesau")
-theme_override_font_sizes/font_size = 68
+theme_override_font_sizes/font_size = 43
 text = "Jogar"
 
 [node name="Configure" type="Button" parent="MainContainer/HContainer/VContainer" groups=["button"]]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_qesau")
-theme_override_font_sizes/font_size = 68
+theme_override_font_sizes/font_size = 43
 text = "Configurar
 "
 
 [node name="Exit" type="Button" parent="MainContainer/HContainer/VContainer" groups=["button"]]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_qesau")
-theme_override_font_sizes/font_size = 68
-text = "Exit"
+theme_override_font_sizes/font_size = 43
+text = "Sair"
