@@ -1,7 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://bu5gpo5btqnw8"]
+[gd_scene load_steps=2 format=3 uid="uid://bu5gpo5btqnw8"]
 
 [ext_resource type="Script" path="res://scripts/tela_carregamento.gd" id="1_ya5j5"]
-[ext_resource type="Script" path="res://scripts/loading_screen.gd" id="2_1tbvg"]
 
 [node name="TelaCarregamento" type="Node"]
 script = ExtResource("1_ya5j5")
@@ -11,7 +10,6 @@ layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
-script = ExtResource("2_1tbvg")
 
 [node name="ColorRect" type="ColorRect" parent="LoadingScreen"]
 layout_mode = 0

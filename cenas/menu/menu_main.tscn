@@ -27,7 +27,6 @@ grow_vertical = 2
 color = Color(0, 0, 0, 1)
 
 [node name="MadeBy" type="HBoxContainer" parent="."]
-visible = false
 layout_mode = 1
 anchors_preset = 7
 anchor_left = 0.5
@@ -43,16 +42,16 @@ grow_vertical = 0
 [node name="PlaceHolder" type="Label" parent="MadeBy"]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_qesau")
-theme_override_font_sizes/font_size = 58
-text = "GitHub"
+theme_override_font_sizes/font_size = 38
+text = "Disponível em"
 
 [node name="TechnoDark-ti" type="Button" parent="MadeBy"]
 modulate = Color(0.00392157, 0.980392, 0.00392157, 1)
 layout_mode = 2
 focus_mode = 0
 theme_override_fonts/font = ExtResource("2_qesau")
-theme_override_font_sizes/font_size = 58
-text = "TechnoDark"
+theme_override_font_sizes/font_size = 38
+text = "GitHub"
 flat = true
 
 [node name="MainContainer" type="VBoxContainer" parent="."]
@@ -76,8 +75,8 @@ alignment = 1
 layout_mode = 2
 size_flags_horizontal = 4
 theme_override_fonts/font = ExtResource("2_qesau")
-theme_override_font_sizes/font_size = 78
-text = "Caminho das Folhas Perdidas"
+theme_override_font_sizes/font_size = 68
+text = "A Caçada pela Verdade"
 horizontal_alignment = 1
 
 [node name="HContainer" type="HBoxContainer" parent="MainContainer"]
@@ -97,18 +96,18 @@ alignment = 1
 [node name="Play" type="Button" parent="MainContainer/HContainer/VContainer" groups=["button"]]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_qesau")
-theme_override_font_sizes/font_size = 68
+theme_override_font_sizes/font_size = 43
 text = "Jogar"
 
 [node name="Configure" type="Button" parent="MainContainer/HContainer/VContainer" groups=["button"]]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_qesau")
-theme_override_font_sizes/font_size = 68
+theme_override_font_sizes/font_size = 43
 text = "Configurar
 "
 
 [node name="Exit" type="Button" parent="MainContainer/HContainer/VContainer" groups=["button"]]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_qesau")
-theme_override_font_sizes/font_size = 68
-text = "Exit"
+theme_override_font_sizes/font_size = 43
+text = "Sair"
