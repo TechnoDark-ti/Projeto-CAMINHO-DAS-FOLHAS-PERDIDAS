@@ -1,23 +1,27 @@
-[gd_scene load_steps=3 format=3 uid="uid://dtx7b2ahrwees"]
+[gd_scene load_steps=5 format=3 uid="uid://dtx7b2ahrwees"]
 
 [ext_resource type="PackedScene" uid="uid://bvuvbfonrrdkb" path="res://cenas/sprites/npc_eduarda.tscn" id="1_bnry5"]
+[ext_resource type="Texture2D" uid="uid://brcg2uddb78ot" path="res://assets/cenário/maps/museu.png" id="1_ryglw"]
 [ext_resource type="PackedScene" uid="uid://b7sjygimj717o" path="res://cenas/sprites/player_sem_camera.tscn" id="2_cueie"]
+[ext_resource type="PackedScene" uid="uid://bvdvajauigkt0" path="res://cenas/sprites/boss_noiva_museu.tscn" id="4_fbo5l"]
 
 [node name="act01_01" type="Node2D"]
 metadata/_edit_horizontal_guides_ = [90.0]
 
 [node name="museu_cenario" type="Sprite2D" parent="."]
+position = Vector2(233, 7)
+texture = ExtResource("1_ryglw")
 
 [node name="animação_cenario" type="AnimationPlayer" parent="."]
 
-[node name="TileMap" type="TileMap" parent="."]
-format = 2
-
 [node name="Personagens" type="Node2D" parent="."]
-position = Vector2(48, 0)
+position = Vector2(170, -13)
 
 [node name="npc_eduarda" parent="Personagens" instance=ExtResource("1_bnry5")]
 position = Vector2(-174, 148)
 
 [node name="Player" parent="Personagens" instance=ExtResource("2_cueie")]
 position = Vector2(-142, 179)
+
+[node name="boss_noiva_museu" parent="Personagens" instance=ExtResource("4_fbo5l")]
+position = Vector2(161, 40)
