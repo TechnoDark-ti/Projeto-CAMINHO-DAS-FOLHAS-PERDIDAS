@@ -38,7 +38,7 @@ func _on_Play_pressed():
 
 # Função chamada ao pressionar o botão "Configurações"
 func _on_Config_pressed():
-	scene_path_to_load = "res://scenes/config.tscn" # Caminho da cena de configurações
+	scene_path_to_load = "res://scenes/controles_menu.tscn" # Caminho da cena de configurações
 	_start_fade_in()
 
 # Função chamada ao pressionar o botão "Exit"
