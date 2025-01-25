@@ -1,21 +1,6 @@
-[gd_scene load_steps=13 format=3 uid="uid://bvuvbfonrrdkb"]
+[gd_scene load_steps=12 format=3 uid="uid://bvuvbfonrrdkb"]
 
 [ext_resource type="Texture2D" uid="uid://dxpv3fa7ybvrh" path="res://assets/sprites/Personagem Feminina.png" id="1_40ft3"]
-
-[sub_resource type="Animation" id="Animation_7awsd"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Sprite:frame")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [2]
-}
 
 [sub_resource type="Animation" id="Animation_ebo58"]
 resource_name = "correr_costas"
@@ -155,7 +140,6 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_6tluq"]
 _data = {
-"RESET": SubResource("Animation_7awsd"),
 "correr_costas": SubResource("Animation_ebo58"),
 "correr_direita": SubResource("Animation_4ne23"),
 "correr_esquerda": SubResource("Animation_4spho"),
@@ -177,7 +161,7 @@ position = Vector2(16, 14)
 texture = ExtResource("1_40ft3")
 hframes = 8
 vframes = 5
-frame = 2
+frame = 24
 
 [node name="Animation" type="AnimationPlayer" parent="."]
 libraries = {
