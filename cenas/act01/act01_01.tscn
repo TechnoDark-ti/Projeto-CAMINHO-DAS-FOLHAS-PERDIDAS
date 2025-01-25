@@ -1,3 +1,23 @@
-[gd_scene format=3 uid="uid://dtx7b2ahrwees"]
+[gd_scene load_steps=3 format=3 uid="uid://dtx7b2ahrwees"]
+
+[ext_resource type="PackedScene" uid="uid://bvuvbfonrrdkb" path="res://cenas/sprites/npc_eduarda.tscn" id="1_bnry5"]
+[ext_resource type="PackedScene" uid="uid://b7sjygimj717o" path="res://cenas/sprites/player_sem_camera.tscn" id="2_cueie"]
 
 [node name="act01_01" type="Node2D"]
+metadata/_edit_horizontal_guides_ = [90.0]
+
+[node name="museu_cenario" type="Sprite2D" parent="."]
+
+[node name="animação_cenario" type="AnimationPlayer" parent="."]
+
+[node name="TileMap" type="TileMap" parent="."]
+format = 2
+
+[node name="Personagens" type="Node2D" parent="."]
+position = Vector2(48, 0)
+
+[node name="npc_eduarda" parent="Personagens" instance=ExtResource("1_bnry5")]
+position = Vector2(-42, 63)
+
+[node name="Player" parent="Personagens" instance=ExtResource("2_cueie")]
+position = Vector2(-10, 94)
