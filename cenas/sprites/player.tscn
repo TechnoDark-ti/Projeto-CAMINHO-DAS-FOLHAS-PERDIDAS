@@ -1,7 +1,7 @@
 [gd_scene load_steps=13 format=3 uid="uid://cvyoslsrv0uof"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_sb1aj"]
-[ext_resource type="Texture2D" uid="uid://dpwlcesi6iw7t" path="res://assets/sprites/personagem masculino.png" id="2_rpr0h"]
+[ext_resource type="Texture2D" uid="uid://bdxavis6mhl5a" path="res://assets/sprites/personagem masculino.png" id="2_rpr0h"]
 
 [sub_resource type="Animation" id="Animation_u1vie"]
 resource_name = "correr_costa"
