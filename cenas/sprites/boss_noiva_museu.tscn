@@ -1,0 +1,60 @@
+[gd_scene load_steps=6 format=3 uid="uid://bvdvajauigkt0"]
+
+[ext_resource type="Texture2D" uid="uid://dbm4m83mo1fkt" path="res://assets/sprites/noiva do museu.png" id="1_qlbmv"]
+
+[sub_resource type="Animation" id="Animation_g4qtk"]
+resource_name = "parada_frente"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+}
+
+[sub_resource type="Animation" id="Animation_2617i"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [1]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_3rysx"]
+_data = {
+"RESET": SubResource("Animation_2617i"),
+"parada_frente": SubResource("Animation_g4qtk")
+}
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_an6dd"]
+size = Vector2(19, 32)
+
+[node name="boss_noiva_museu" type="CharacterBody2D"]
+
+[node name="Sprite" type="Sprite2D" parent="."]
+position = Vector2(27, 25)
+texture = ExtResource("1_qlbmv")
+hframes = 10
+frame = 1
+
+[node name="Animation" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_3rysx")
+}
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+position = Vector2(27, 25)
+shape = SubResource("RectangleShape2D_an6dd")
