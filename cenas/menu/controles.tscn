@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://bxsim715l6ag2"]
 
-[ext_resource type="Script" path="res://scripts/menu_main.gd" id="1_jma0d"]
+[ext_resource type="Script" path="res://scripts/menu_principal.gd" id="1_7a6qd"]
 [ext_resource type="FontFile" uid="uid://64iw0uqtfgpm" path="res://assets/fonts/Kurland.ttf" id="2_7i537"]
 
 [node name="Menu_Principal" type="Control"]
@@ -15,7 +15,7 @@ offset_bottom = 528.0
 grow_horizontal = 2
 grow_vertical = 2
 scale = Vector2(0.355507, 0.266463)
-script = ExtResource("1_jma0d")
+script = ExtResource("1_7a6qd")
 
 [node name="Background" type="ColorRect" parent="."]
 layout_mode = 1
@@ -25,34 +25,6 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 color = Color(0, 0, 0, 1)
-
-[node name="MadeBy" type="HBoxContainer" parent="."]
-layout_mode = 1
-anchors_preset = 7
-anchor_left = 0.5
-anchor_top = 1.0
-anchor_right = 0.5
-anchor_bottom = 1.0
-offset_left = -71.5
-offset_top = -40.0
-offset_right = 71.5
-grow_horizontal = 2
-grow_vertical = 0
-
-[node name="PlaceHolder" type="Label" parent="MadeBy"]
-layout_mode = 2
-theme_override_fonts/font = ExtResource("2_7i537")
-theme_override_font_sizes/font_size = 38
-text = "Disponível em"
-
-[node name="TechnoDark-ti" type="Button" parent="MadeBy"]
-modulate = Color(0.00392157, 0.980392, 0.00392157, 1)
-layout_mode = 2
-focus_mode = 0
-theme_override_fonts/font = ExtResource("2_7i537")
-theme_override_font_sizes/font_size = 38
-text = "GitHub"
-flat = true
 
 [node name="MainContainer" type="VBoxContainer" parent="."]
 custom_minimum_size = Vector2(650, 650)
@@ -79,43 +51,12 @@ theme_override_font_sizes/font_size = 68
 text = "A Caçada pela Verdade"
 horizontal_alignment = 1
 
-[node name="HContainer" type="HBoxContainer" parent="MainContainer"]
-layout_mode = 2
-size_flags_horizontal = 4
-size_flags_vertical = 4
-theme_override_constants/separation = 50
-alignment = 1
-
-[node name="VContainer" type="VBoxContainer" parent="MainContainer/HContainer"]
-layout_mode = 2
-size_flags_horizontal = 4
-size_flags_vertical = 4
-theme_override_constants/separation = 50
-alignment = 1
-
-[node name="Play" type="Button" parent="MainContainer/HContainer/VContainer" groups=["button"]]
-layout_mode = 2
-theme_override_fonts/font = ExtResource("2_7i537")
-theme_override_font_sizes/font_size = 43
-text = "Jogar"
-
-[node name="Controles" type="Button" parent="MainContainer/HContainer/VContainer" groups=["button"]]
-layout_mode = 2
-theme_override_fonts/font = ExtResource("2_7i537")
-theme_override_font_sizes/font_size = 43
-text = "Controles
-"
-
-[node name="Exit" type="Button" parent="MainContainer/HContainer/VContainer" groups=["button"]]
-layout_mode = 2
-theme_override_fonts/font = ExtResource("2_7i537")
-theme_override_font_sizes/font_size = 43
-text = "Sair"
-
-[node name="Nota_Versão" type="Label" parent="."]
+[node name="Voltar" type="Button" parent="."]
 layout_mode = 0
-offset_left = 2.81288
-offset_top = 694.28
-offset_right = 193.813
-offset_bottom = 717.28
-text = "version alpha_build 1.1.4"
+offset_left = 506.319
+offset_top = 559.177
+offset_right = 561.319
+offset_bottom = 590.177
+text = "Voltar"
+
+[connection signal="pressed" from="Voltar" to="." method="_on_voltar_pressed"]
