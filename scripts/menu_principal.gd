@@ -17,4 +17,8 @@ func _on_controles_pressed() -> void:
 	get_tree().change_scene_to_file("res://cenas/menu/controles.tscn")
 
 func _on_créditos_pressed() -> void:
-		get_tree().change_scene_to_file("res://cenas/creditos.tscn")
+	get_tree().change_scene_to_file("res://cenas/creditos.tscn")
+
+
+func _on_voltar_pressed() -> void:
+	get_tree().change_scene_to_file("res://cenas/menu/menu_main.tscn")
