@@ -1,0 +1,114 @@
+[gd_scene load_steps=4 format=3 uid="uid://bxsim715l6ag2"]
+
+[ext_resource type="Script" path="res://scripts/menu_principal.gd" id="1_7a6qd"]
+[ext_resource type="FontFile" uid="uid://c07tqyncxhe2e" path="res://assets/fonts/Kurland.ttf" id="2_7i537"]
+[ext_resource type="Texture2D" uid="uid://cn74urpn3tmta" path="res://assets/fonts/wasd.png" id="3_8u5dd"]
+
+[node name="Controle" type="Control"]
+custom_minimum_size = Vector2(1080, 720)
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 1.52588e-05
+offset_right = 696.0
+offset_bottom = 528.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.355507, 0.266463)
+script = ExtResource("1_7a6qd")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Controles_Label" type="Label" parent="."]
+layout_mode = 2
+offset_left = 210.966
+offset_top = 78.8101
+offset_right = 876.966
+offset_bottom = 149.81
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_fonts/font = ExtResource("2_7i537")
+theme_override_font_sizes/font_size = 45
+text = "Controle do Jogo"
+horizontal_alignment = 1
+
+[node name="W_Label" type="Label" parent="."]
+layout_mode = 2
+offset_left = 424.746
+offset_top = 172.632
+offset_right = 623.746
+offset_bottom = 243.632
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_fonts/font = ExtResource("2_7i537")
+theme_override_font_sizes/font_size = 45
+text = "W = Cima"
+horizontal_alignment = 1
+
+[node name="S_Label" type="Label" parent="."]
+layout_mode = 2
+offset_left = 433.184
+offset_top = 243.936
+offset_right = 626.184
+offset_bottom = 314.936
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_fonts/font = ExtResource("2_7i537")
+theme_override_font_sizes/font_size = 45
+text = "S = Baixo"
+horizontal_alignment = 1
+
+[node name="A_Label" type="Label" parent="."]
+layout_mode = 2
+offset_left = 441.623
+offset_top = 315.241
+offset_right = 690.623
+offset_bottom = 386.241
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_fonts/font = ExtResource("2_7i537")
+theme_override_font_sizes/font_size = 45
+text = "A = Esquerda"
+horizontal_alignment = 1
+
+[node name="D_Label" type="Label" parent="."]
+layout_mode = 2
+offset_left = 441.623
+offset_top = 375.287
+offset_right = 648.623
+offset_bottom = 446.287
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_fonts/font = ExtResource("2_7i537")
+theme_override_font_sizes/font_size = 45
+text = "D = Direita"
+horizontal_alignment = 1
+
+[node name="Voltar" type="Button" parent="."]
+layout_mode = 0
+offset_left = 435.997
+offset_top = 600.459
+offset_right = 516.997
+offset_bottom = 643.459
+scale = Vector2(2, 2)
+theme_override_font_sizes/font_size = 25
+text = "Voltar"
+
+[node name="Wasd" type="Sprite2D" parent="."]
+position = Vector2(233.469, 341.511)
+scale = Vector2(0.61087, 0.61087)
+texture = ExtResource("3_8u5dd")
+
+[connection signal="pressed" from="Voltar" to="." method="_on_voltar_pressed"]

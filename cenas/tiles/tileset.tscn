@@ -10,10 +10,10 @@ size = Vector2(390, 20)
 size = Vector2(389, 20)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mhcg7"]
-size = Vector2(382, 35)
+size = Vector2(383, 42)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ak0bd"]
-size = Vector2(382, 35)
+size = Vector2(382, 42)
 
 [node name="Tileset" type="Node2D"]
 
@@ -41,11 +41,11 @@ texture = ExtResource("1_hb6q8")
 [node name="StaticBody2D" type="StaticBody2D" parent="Muro"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Muro/StaticBody2D"]
-position = Vector2(-229, 194.5)
+position = Vector2(-228.5, 191)
 shape = SubResource("RectangleShape2D_mhcg7")
 
 [node name="StaticBody2D2" type="StaticBody2D" parent="Muro"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Muro/StaticBody2D2"]
-position = Vector2(229, 194.5)
+position = Vector2(229, 191)
 shape = SubResource("RectangleShape2D_ak0bd")

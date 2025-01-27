@@ -93,29 +93,41 @@ size_flags_vertical = 4
 theme_override_constants/separation = 50
 alignment = 1
 
-[node name="Play" type="Button" parent="MainContainer/HContainer/VContainer" groups=["button"]]
+[node name="Play" type="Button" parent="MainContainer/HContainer/VContainer"]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_qesau")
 theme_override_font_sizes/font_size = 43
 text = "Jogar"
 
-[node name="Configure" type="Button" parent="MainContainer/HContainer/VContainer" groups=["button"]]
+[node name="Controles" type="Button" parent="MainContainer/HContainer/VContainer"]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_qesau")
 theme_override_font_sizes/font_size = 43
-text = "Configurar
+text = "Controles
 "
 
-[node name="Exit" type="Button" parent="MainContainer/HContainer/VContainer" groups=["button"]]
+[node name="Créditos" type="Button" parent="MainContainer/HContainer/VContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_qesau")
+theme_override_font_sizes/font_size = 43
+text = "Créditos
+"
+
+[node name="Exit" type="Button" parent="MainContainer/HContainer/VContainer"]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_qesau")
 theme_override_font_sizes/font_size = 43
 text = "Sair"
 
-[node name="Label" type="Label" parent="."]
+[node name="Nota_Versão" type="Label" parent="."]
 layout_mode = 0
 offset_left = 2.81288
 offset_top = 694.28
 offset_right = 193.813
 offset_bottom = 717.28
-text = "version alpha_build 1.1.4"
+text = "version alpha_build 1.1.5"
+
+[connection signal="pressed" from="MainContainer/HContainer/VContainer/Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="MainContainer/HContainer/VContainer/Controles" to="." method="_on_controles_pressed"]
+[connection signal="pressed" from="MainContainer/HContainer/VContainer/Créditos" to="." method="_on_créditos_pressed"]
+[connection signal="pressed" from="MainContainer/HContainer/VContainer/Exit" to="." method="_on_exit_pressed"]

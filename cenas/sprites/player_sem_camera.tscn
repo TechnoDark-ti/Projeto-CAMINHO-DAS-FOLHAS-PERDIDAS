@@ -1,7 +1,6 @@
-[gd_scene load_steps=13 format=3 uid="uid://cvyoslsrv0uof"]
+[gd_scene load_steps=12 format=3 uid="uid://b7sjygimj717o"]
 
-[ext_resource type="Script" path="res://scripts/player.gd" id="1_sb1aj"]
-[ext_resource type="Texture2D" uid="uid://bdxavis6mhl5a" path="res://assets/sprites/personagem masculino.png" id="2_rpr0h"]
+[ext_resource type="Texture2D" uid="uid://bdxavis6mhl5a" path="res://assets/sprites/personagem masculino.png" id="2_6e6g3"]
 
 [sub_resource type="Animation" id="Animation_u1vie"]
 resource_name = "correr_costa"
@@ -154,16 +153,15 @@ _data = {
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_u4xpc"]
 size = Vector2(8, 1)
 
-[node name="Player" type="CharacterBody2D"]
+[node name="Player_sem_camera" type="CharacterBody2D"]
 position = Vector2(23, 41)
-script = ExtResource("1_sb1aj")
 
 [node name="Sprite" type="Sprite2D" parent="."]
 position = Vector2(0, -17)
-texture = ExtResource("2_rpr0h")
+texture = ExtResource("2_6e6g3")
 hframes = 8
 vframes = 5
-frame = 32
+frame = 24
 
 [node name="Animation" type="AnimationPlayer" parent="."]
 libraries = {
@@ -173,6 +171,3 @@ libraries = {
 [node name="Collision" type="CollisionShape2D" parent="."]
 position = Vector2(0, -4.5)
 shape = SubResource("RectangleShape2D_u4xpc")
-
-[node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(0, -15)
