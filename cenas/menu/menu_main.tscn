@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://cntbaoeh55dp3"]
 
 [ext_resource type="Script" path="res://scripts/menu_principal.gd" id="1_qf3d8"]
-[ext_resource type="FontFile" uid="uid://64iw0uqtfgpm" path="res://assets/fonts/Kurland.ttf" id="2_qesau"]
+[ext_resource type="FontFile" uid="uid://c07tqyncxhe2e" path="res://assets/fonts/Kurland.ttf" id="2_qesau"]
 
 [node name="Menu_Principal" type="Control"]
 custom_minimum_size = Vector2(1080, 720)
@@ -125,7 +125,7 @@ offset_left = 2.81288
 offset_top = 694.28
 offset_right = 193.813
 offset_bottom = 717.28
-text = "version alpha_build 1.1.4"
+text = "version alpha_build 1.1.5"
 
 [connection signal="pressed" from="MainContainer/HContainer/VContainer/Play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="MainContainer/HContainer/VContainer/Controles" to="." method="_on_controles_pressed"]
