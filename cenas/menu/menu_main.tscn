@@ -5,7 +5,6 @@
 [ext_resource type="FontFile" uid="uid://c07tqyncxhe2e" path="res://assets/fonts/Kurland.ttf" id="2_qesau"]
 
 [node name="Menu_Principal" type="Control"]
-custom_minimum_size = Vector2(1080, 720)
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -131,7 +130,7 @@ offset_right = 193.813
 offset_bottom = 717.28
 theme_override_constants/outline_size = 10
 theme_override_constants/shadow_outline_size = 10
-text = "version alpha_build 1.1.6"
+text = "version alpha_build 1.2.1"
 
 [connection signal="pressed" from="MadeBy/TechnoDark-ti" to="." method="_on_techno_darkti_pressed"]
 [connection signal="pressed" from="MainContainer/HContainer/VContainer/Play" to="." method="_on_play_pressed"]
