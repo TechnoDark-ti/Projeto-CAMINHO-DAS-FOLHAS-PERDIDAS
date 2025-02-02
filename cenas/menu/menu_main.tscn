@@ -1,10 +1,10 @@
-[gd_scene load_steps=3 format=3 uid="uid://cntbaoeh55dp3"]
+[gd_scene load_steps=4 format=3 uid="uid://cntbaoeh55dp3"]
 
 [ext_resource type="Script" path="res://scripts/menu_principal.gd" id="1_qf3d8"]
+[ext_resource type="Texture2D" uid="uid://bapqlx84s4p46" path="res://assets/cenário/models/serra da escama.png" id="2_6drd2"]
 [ext_resource type="FontFile" uid="uid://c07tqyncxhe2e" path="res://assets/fonts/Kurland.ttf" id="2_qesau"]
 
 [node name="Menu_Principal" type="Control"]
-custom_minimum_size = Vector2(1080, 720)
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -17,14 +17,12 @@ grow_vertical = 2
 scale = Vector2(0.355507, 0.266463)
 script = ExtResource("1_qf3d8")
 
-[node name="Background" type="ColorRect" parent="."]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-color = Color(0, 0, 0, 1)
+[node name="bg_imagem" type="TextureRect" parent="."]
+layout_mode = 2
+offset_right = 1080.0
+offset_bottom = 720.0
+texture = ExtResource("2_6drd2")
+expand_mode = 2
 
 [node name="MadeBy" type="HBoxContainer" parent="."]
 layout_mode = 1
@@ -39,16 +37,19 @@ offset_right = 71.5
 grow_horizontal = 2
 grow_vertical = 0
 
-[node name="PlaceHolder" type="Label" parent="MadeBy"]
+[node name="Dispo" type="Label" parent="MadeBy"]
 layout_mode = 2
+theme_override_constants/outline_size = 15
+theme_override_constants/shadow_outline_size = 10
 theme_override_fonts/font = ExtResource("2_qesau")
 theme_override_font_sizes/font_size = 38
-text = "Disponível em"
+text = "Disponível no"
 
 [node name="TechnoDark-ti" type="Button" parent="MadeBy"]
 modulate = Color(0.00392157, 0.980392, 0.00392157, 1)
 layout_mode = 2
 focus_mode = 0
+theme_override_constants/outline_size = 15
 theme_override_fonts/font = ExtResource("2_qesau")
 theme_override_font_sizes/font_size = 38
 text = "GitHub"
@@ -74,6 +75,8 @@ alignment = 1
 [node name="GameName" type="Label" parent="MainContainer"]
 layout_mode = 2
 size_flags_horizontal = 4
+theme_override_constants/outline_size = 25
+theme_override_constants/shadow_outline_size = 10
 theme_override_fonts/font = ExtResource("2_qesau")
 theme_override_font_sizes/font_size = 68
 text = "A Caçada pela Verdade"
@@ -125,8 +128,11 @@ offset_left = 2.81288
 offset_top = 694.28
 offset_right = 193.813
 offset_bottom = 717.28
-text = "version alpha_build 1.1.5"
+theme_override_constants/outline_size = 10
+theme_override_constants/shadow_outline_size = 10
+text = "version alpha_build 1.2.1"
 
+[connection signal="pressed" from="MadeBy/TechnoDark-ti" to="." method="_on_techno_darkti_pressed"]
 [connection signal="pressed" from="MainContainer/HContainer/VContainer/Play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="MainContainer/HContainer/VContainer/Controles" to="." method="_on_controles_pressed"]
 [connection signal="pressed" from="MainContainer/HContainer/VContainer/Créditos" to="." method="_on_créditos_pressed"]

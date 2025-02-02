@@ -1,0 +1,38 @@
+[gd_scene load_steps=2 format=3 uid="uid://b7ro057btwbsn"]
+
+[ext_resource type="Script" path="res://scripts/menu_principal.gd" id="1_43e68"]
+
+[node name="Controle" type="Control"]
+custom_minimum_size = Vector2(1080, 720)
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 1.52588e-05
+offset_right = 696.0
+offset_bottom = 528.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.355507, 0.266463)
+script = ExtResource("1_43e68")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Voltar" type="Button" parent="."]
+layout_mode = 0
+offset_left = 435.997
+offset_top = 600.459
+offset_right = 516.997
+offset_bottom = 643.459
+scale = Vector2(2, 2)
+theme_override_font_sizes/font_size = 25
+text = "Voltar"
+
+[connection signal="pressed" from="Voltar" to="." method="_on_voltar_pressed"]

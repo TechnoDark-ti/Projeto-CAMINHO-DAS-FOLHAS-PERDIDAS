@@ -4,12 +4,7 @@ extends CharacterBody2D
 ##### SESSÃO DE COMENTÁRIOS #####
 @Author: Márcio Moda, Grazi Leão, João Manoel e Edy Carlos
 
-
-
-
-
 """
-
 
 #Definindo algumas variáveis de Física
 @export_category("Variables")
@@ -47,10 +42,10 @@ func animate() -> void:
 			# Movimento horizontal
 			if velocity.x > 0:
 				animation.play("correr_direita")
-				#sprite.flip_h = false
+				#sprite.flip_h = false #Não mexer
 			else:
 				animation.play("correr_esquerda")
-				#sprite.flip_h = true
+				#sprite.flip_h = true #Não mexer
 		else:
 			# Movimento vertical
 			if velocity.y > 0:
