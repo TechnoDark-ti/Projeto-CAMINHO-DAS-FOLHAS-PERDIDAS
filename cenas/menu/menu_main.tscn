@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://cntbaoeh55dp3"]
 
 [ext_resource type="Script" path="res://scripts/menu_principal.gd" id="1_qf3d8"]
-[ext_resource type="Texture2D" uid="uid://bapqlx84s4p46" path="res://assets/cenário/models/serra da escama.png" id="2_6drd2"]
-[ext_resource type="FontFile" uid="uid://c07tqyncxhe2e" path="res://assets/fonts/Kurland.ttf" id="2_qesau"]
+[ext_resource type="Texture2D" uid="uid://dpas7lakpkyjx" path="res://assets/cenário/models/serra da escama.png" id="2_6drd2"]
+[ext_resource type="FontFile" uid="uid://b766fqwfwwktp" path="res://assets/fonts/Kurland.ttf" id="2_qesau"]
 
 [node name="Menu_Principal" type="Control"]
 layout_mode = 3
